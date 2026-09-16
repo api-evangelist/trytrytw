@@ -23,12 +23,11 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trytrytw.png
 name: TryTry (穿穿)
-description: TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand
-  ("是妳，決定了這件衣服的表情" — "It's you who decides the expression of this dress"), active around
-  2015-2016 and surfaced as a Qiming portfolio company. The business appears defunct — as of
-  2026-07-21 trytrytw.com is domain-squatted (wildcard DNS to a parked Chinese web-design page,
-  serving an expired TLS certificate issued for an unrelated host) and no developer, API, or
-  documentation surface exists.
+description: TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand ("是妳，決定了這件衣服的表情"
+  — "It's you who decides the expression of this dress"), active around 2015-2016 and surfaced as a Qiming
+  portfolio company. The business appears defunct — as of 2026-07-21 trytrytw.com is domain-squatted (wildcard
+  DNS to a parked Chinese web-design page, serving an expired TLS certificate issued for an unrelated
+  host) and no developer, API, or documentation surface exists.
 url: https://raw.githubusercontent.com/api-evangelist/trytrytw/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -44,7 +43,7 @@ x-enrichment:
   pass: local-v1
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Fashion
@@ -63,3 +62,4 @@ common:
   url: security/trytrytw-domain-security.yml
 - type: Website
   url: https://trytrytw.com
+x-status: defunct
